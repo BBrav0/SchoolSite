@@ -1,0 +1,9 @@
+{
+    "name": "school-site",
+    "version": "1.0.0",
+    "description": "Ben's School Site",
+    "main": "Base.html",
+    "scripts": {
+      "build": "echo 'No build step required'"
+    }
+  }
