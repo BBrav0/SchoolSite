@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
       "source": "/cs134/lab1",
       "destination": "/CS 134/Lab1.html"
     },
