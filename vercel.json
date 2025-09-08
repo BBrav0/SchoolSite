@@ -1,12 +1,12 @@
 {
-    "rewrites": [
-      {
-        "source": "/cs134/lab1",
-        "destination": "/CS 134/Lab1.html"
-      },
-      {
-        "source": "/cs134/sampletags",
-        "destination": "/CS 134/sampletags.html"
-      }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/cs134/lab1",
+      "destination": "/CS 134/Lab1.html"
+    },
+    {
+      "source": "/cs134/sampletags",
+      "destination": "/CS 134/sampletags.html"
+    }
+  ]
+}
