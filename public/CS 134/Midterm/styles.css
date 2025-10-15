@@ -1,0 +1,50 @@
+
+html, body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #111;
+}
+
+/* Left column content */
+.full-height {
+  height: 100%;
+}
+
+.collapse {
+  border-collapse: collapse;
+}
+
+.compact-list {
+  padding: 4px 0;
+  line-height: 1.1;
+}
+
+.hero-tagline {
+  color: #c00; 
+  display: block;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+}
+
+.resource-link {
+  display: block;
+  margin: 0;
+  padding: 2px 0;
+  line-height: 1;
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.resource-link:hover {
+  text-decoration: underline;
+}
+
+.image-wrap {
+  margin-top: 12px;
+}
+
+.promo-image {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
