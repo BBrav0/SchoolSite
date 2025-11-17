@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* transition number 1 - changing sizes */
+.gallery-item img {
+    width: 150px;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.transition-scale:hover {
+    transform: scale(1.2);
+}
+
+/* transition number 2 - mouse over text */
+.transition-rotate:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* transition number 3 - photo gallery */
+.transition-skew:hover {
+    transform: skew(5deg, 5deg) scale(1.1);
+}
+
+/* transforms - basic */
+.transition-complex:hover {
+    transform: perspective(800px) rotateX(35deg) rotateZ(10deg) translateZ(50px) scale(1.2);
+}
+
+/* transforms - more */
+.transition-flip:hover {
+    transform: rotateY(180deg) scale(1.1);
+}
