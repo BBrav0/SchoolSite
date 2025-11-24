@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essential security tips including two-factor authentication, password managers, and best practices for online safety">
+    <meta name="keywords" content="security tips, 2FA, two-factor authentication, password manager, online security, cybersecurity tips">
+    <meta name="author" content="PassPerscriber">
+    <title>Security Tips - PassPerscriber</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span>🔐</span>
+                <span>PassPerscriber</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="basics.html">Basics</a></li>
+                    <li><a href="security-tips.html" class="active">Security Tips</a></li>
+                    <li><a href="phishing.html">Phishing</a></li>
+                    <li><a href="fake-sites.html">Fake Sites</a></li>
+                    <li><a href="smishing.html">Smishing</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>🛡️ Security Tips & Best Practices</h1>
+
+        <div class="card">
+            <p>Creating strong passwords is just the beginning. Follow these essential security practices to maximize your protection and keep your accounts safe from unauthorized access.</p>
+        </div>
+
+        <div class="card">
+            <h2>🔐 Two-Factor Authentication (2FA)</h2>
+            <p>Two-factor authentication adds an extra layer of security by requiring a second form of verification beyond your password. Even if someone steals your password, they can't access your account without the second factor.</p>
+            
+            <h3>Types of 2FA:</h3>
+            <div class="card-grid">
+                <div class="card" style="background-color: var(--bg-secondary);">
+                    <h4>📱 Authenticator Apps</h4>
+                    <p><strong>Best option:</strong> Apps like Google Authenticator, Authy, or Microsoft Authenticator generate time-based codes.</p>
+                    <p><strong>Pros:</strong> Secure, works offline, can't be intercepted</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary);">
+                    <h4>💬 SMS Codes</h4>
+                    <p>Receive verification codes via text message to your phone.</p>
+                    <p><strong>Pros:</strong> Easy to use, widely supported<br>
+                    <strong>Cons:</strong> Can be intercepted via SIM swapping</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary);">
+                    <h4>🔑 Security Keys</h4>
+                    <p>Physical USB or NFC devices like YubiKey that you plug in or tap.</p>
+                    <p><strong>Pros:</strong> Most secure option, immune to phishing</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary);">
+                    <h4>📧 Email Codes</h4>
+                    <p>Receive verification codes in your email inbox.</p>
+                    <p><strong>Pros:</strong> Better than nothing<br>
+                    <strong>Cons:</strong> Only as secure as your email account</p>
+                </div>
+            </div>
+
+            <div class="alert alert-success">
+                <strong>Enable 2FA everywhere possible!</strong> Especially for email, banking, social media, and shopping accounts.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🗄️ Password Managers</h2>
+            <p>Password managers are specialized applications that securely store all your passwords in an encrypted vault. You only need to remember one strong master password.</p>
+            
+            <h3>Benefits of Using a Password Manager:</h3>
+            <ul class="feature-list">
+                <li>Generate strong, unique passwords for every account automatically</li>
+                <li>Remember all your passwords so you don't have to</li>
+                <li>Auto-fill login forms securely</li>
+                <li>Sync across all your devices</li>
+                <li>Alert you about weak or reused passwords</li>
+                <li>Notify you of data breaches affecting your accounts</li>
+                <li>Securely share passwords with family or team members</li>
+            </ul>
+
+            <h3>Popular Password Managers:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Password Manager</th>
+                        <th>Best For</th>
+                        <th>Price</th>
+                        <th>Key Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bitwarden</td>
+                        <td>Everyone, budget-conscious</td>
+                        <td>Free / $10/year</td>
+                        <td>Open source, unlimited passwords</td>
+                    </tr>
+                    <tr>
+                        <td>1Password</td>
+                        <td>Families & teams</td>
+                        <td>$36/year</td>
+                        <td>Excellent UI, travel mode</td>
+                    </tr>
+                    <tr>
+                        <td>LastPass</td>
+                        <td>Free tier users</td>
+                        <td>Free / $36/year</td>
+                        <td>Easy to use, widely supported</td>
+                    </tr>
+                    <tr>
+                        <td>Dashlane</td>
+                        <td>Premium features</td>
+                        <td>$60/year</td>
+                        <td>VPN included, dark web monitoring</td>
+                    </tr>
+                    <tr>
+                        <td>KeePass</td>
+                        <td>Tech-savvy users</td>
+                        <td>Free</td>
+                        <td>Completely offline, highly customizable</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="alert alert-warning">
+                <strong>Important:</strong> Your master password must be extremely strong and memorable. If you forget it, you lose access to all your passwords!
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📋 Top 10 Security Best Practices</h2>
+            <ol>
+                <li><strong>Use unique passwords for every account:</strong> Never reuse passwords across different sites. A breach on one site shouldn't compromise all your accounts.</li>
+                
+                <li><strong>Enable 2FA everywhere:</strong> Add two-factor authentication to every account that supports it, especially email and financial accounts.</li>
+                
+                <li><strong>Use a password manager:</strong> Let software generate and remember strong passwords for you. It's safer than trying to remember them all.</li>
+                
+                <li><strong>Keep software updated:</strong> Install security updates promptly for your operating system, browser, and applications.</li>
+                
+                <li><strong>Be suspicious of links:</strong> Don't click links in emails or messages from unknown senders. Type URLs directly or use bookmarks.</li>
+                
+                <li><strong>Verify website security:</strong> Look for "https://" and a padlock icon before entering sensitive information.</li>
+                
+                <li><strong>Use secure networks:</strong> Avoid public Wi-Fi for sensitive activities, or use a VPN for protection.</li>
+                
+                <li><strong>Check account activity:</strong> Regularly review your account login history and activity for suspicious behavior.</li>
+                
+                <li><strong>Back up important data:</strong> Keep backups of critical files in case of ransomware or device failure.</li>
+                
+                <li><strong>Educate yourself:</strong> Stay informed about the latest security threats and scams. Knowledge is your best defense!</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>🔄 When to Change Your Password</h2>
+            <p>You should change your passwords in these situations:</p>
+            
+            <ul class="feature-list">
+                <li><strong>After a data breach:</strong> If a service you use is compromised, change your password immediately</li>
+                <li><strong>If you shared it:</strong> After sharing with someone who no longer needs access</li>
+                <li><strong>If you used it on public Wi-Fi:</strong> Unsecured networks may have been monitored</li>
+                <li><strong>If you suspect compromise:</strong> Unusual account activity or security warnings</li>
+                <li><strong>If it's weak:</strong> Replace old, weak passwords with strong ones</li>
+            </ul>
+
+            <div class="alert alert-warning">
+                <strong>Note:</strong> You don't need to change strong, unique passwords regularly. Modern security guidance recommends changing passwords only when necessary, not on a schedule.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📺 Learn More About Online Security</h2>
+            <p>Watch this helpful video about password security and best practices:</p>
+            
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/aEmF3Iylvr4" 
+                    title="Password Security Tips"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="alert alert-success">
+            <strong>Want to learn about common scams?</strong> Check out our pages on <a href="phishing.html">Phishing Emails</a>, <a href="fake-sites.html">Fake Login Pages</a>, and <a href="smishing.html">SMS Scams</a>!
+        </div>
+    </main>
+</body>
+</html>
+
