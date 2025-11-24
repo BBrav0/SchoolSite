@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to identify and avoid phishing email scams that try to steal your passwords and personal information">
+    <meta name="keywords" content="phishing, email scams, phishing emails, email security, scam awareness, cybersecurity">
+    <meta name="author" content="PassPerscriber">
+    <title>Phishing Emails - PassPerscriber</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span>🔐</span>
+                <span>PassPerscriber</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="basics.html">Basics</a></li>
+                    <li><a href="security-tips.html">Security Tips</a></li>
+                    <li><a href="phishing.html" class="active">Phishing</a></li>
+                    <li><a href="fake-sites.html">Fake Sites</a></li>
+                    <li><a href="smishing.html">Smishing</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>🎣 Phishing Emails</h1>
+
+        <div class="card">
+            <h2>What is Phishing?</h2>
+            <p>Phishing is a type of cyberattack where criminals send fraudulent emails pretending to be from legitimate organizations. The goal is to trick you into revealing sensitive information like passwords, credit card numbers, or social security numbers.</p>
+            
+            <div class="alert alert-danger">
+                <strong>Phishing Statistics:</strong> Over 3.4 billion phishing emails are sent every day, and 1 in 99 emails is a phishing attack. Don't become a statistic!
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🚩 Red Flags to Watch For</h2>
+            <p>Learn to spot these common warning signs of phishing emails:</p>
+            
+            <div class="card-grid">
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>⚠️ Suspicious Sender</h3>
+                    <p>The email address doesn't match the company's official domain. Look carefully at the sender's address, not just the display name.</p>
+                    <p><strong>Example:</strong><br>
+                    Legit: support@amazon.com<br>
+                    Phishing: support@amaz0n-security.com</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>⏰ Urgent Language</h3>
+                    <p>Creates false urgency or threats to pressure you into acting quickly without thinking.</p>
+                    <p><strong>Examples:</strong><br>
+                    "Account will be closed in 24 hours!"<br>
+                    "Immediate action required!"<br>
+                    "Suspicious activity detected!"</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>🔗 Suspicious Links</h3>
+                    <p>Links that look legitimate but actually lead to fake websites. Hover over links to see the real URL before clicking.</p>
+                    <p><strong>Tip:</strong> Type the URL directly into your browser instead of clicking email links.</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>📎 Unexpected Attachments</h3>
+                    <p>Attachments containing malware or viruses, especially from unknown senders.</p>
+                    <p><strong>Dangerous types:</strong> .exe, .zip, .scr, suspicious .pdf or Office docs</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>📝 Poor Grammar</h3>
+                    <p>Professional companies proofread their emails. Multiple spelling errors and awkward phrasing are red flags.</p>
+                    <p><strong>Example:</strong> "Dear costumer, you account have been compromise"</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>💰 Too Good to Be True</h3>
+                    <p>Offers of free money, prizes, or deals that seem unrealistic.</p>
+                    <p><strong>Examples:</strong> "You've won $1,000,000!"<br>
+                    "Free iPhone - click here!"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📧 Common Phishing Email Types</h2>
+            
+            <h3>1. Account Verification Scams</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0;">
+                <p><strong>Subject:</strong> Urgent: Verify Your Account</p>
+                <p style="color: var(--text-secondary); font-style: italic;">
+                    "Dear Customer,<br><br>
+                    We've detected unusual activity on your account. For your security, please verify your identity by clicking the link below within 24 hours or your account will be suspended.<br><br>
+                    [Verify Account Now]<br><br>
+                    Thank you,<br>
+                    Security Team"
+                </p>
+                <div class="alert alert-danger">
+                    <strong>Why it's fake:</strong> Legitimate companies don't ask you to verify via email links. They'll direct you to log in through the official website or app.
+                </div>
+            </div>
+
+            <h3>2. Password Reset Requests</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0;">
+                <p><strong>Subject:</strong> Password Reset Request</p>
+                <p style="color: var(--text-secondary); font-style: italic;">
+                    "Hi [Your Name],<br><br>
+                    We received a request to reset your password. If you didn't make this request, click here immediately to secure your account:<br><br>
+                    [Reset Password]<br><br>
+                    If you don't act within 2 hours, your account may be compromised."
+                </p>
+                <div class="alert alert-danger">
+                    <strong>Why it's fake:</strong> Creates panic. Real password resets don't threaten account compromise, and you can always reset through the official site.
+                </div>
+            </div>
+
+            <h3>3. Package Delivery Notifications</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0;">
+                <p><strong>Subject:</strong> Your Package Cannot Be Delivered</p>
+                <p style="color: var(--text-secondary); font-style: italic;">
+                    "Dear Customer,<br><br>
+                    We attempted to deliver your package but were unable to complete delivery. Please update your shipping information to avoid return to sender:<br><br>
+                    [Update Shipping Info]<br><br>
+                    Package ID: 1Z999AA10123456784"
+                </p>
+                <div class="alert alert-danger">
+                    <strong>Why it's fake:</strong> You're not expecting a package, or the sender email doesn't match the shipping company's official domain.
+                </div>
+            </div>
+
+            <h3>4. Prize/Lottery Scams</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0;">
+                <p><strong>Subject:</strong> Congratulations! You've Won!</p>
+                <p style="color: var(--text-secondary); font-style: italic;">
+                    "CONGRATULATIONS!!!<br><br>
+                    Your email has been selected as a winner in our annual sweepstakes! You've won $500,000 and a new car!<br><br>
+                    Click below to claim your prize before it expires:<br><br>
+                    [Claim Prize Now]"
+                </p>
+                <div class="alert alert-danger">
+                    <strong>Why it's fake:</strong> You can't win a contest you didn't enter. Legitimate sweepstakes don't notify winners via random emails.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>✅ How to Protect Yourself</h2>
+            <ol>
+                <li><strong>Verify the sender:</strong> Check the email address carefully. Look for misspellings or suspicious domains.</li>
+                
+                <li><strong>Don't click suspicious links:</strong> Hover over links to see the real URL. If in doubt, type the website address directly into your browser.</li>
+                
+                <li><strong>Never share passwords via email:</strong> Legitimate companies will never ask for your password via email.</li>
+                
+                <li><strong>Use spam filters:</strong> Enable email filters to catch obvious phishing attempts.</li>
+                
+                <li><strong>Enable 2FA:</strong> Even if your password is stolen, two-factor authentication provides a second line of defense.</li>
+                
+                <li><strong>Report phishing:</strong> Forward suspicious emails to your email provider and the company being impersonated.</li>
+                
+                <li><strong>Keep software updated:</strong> Updated browsers and email clients have better phishing detection.</li>
+                
+                <li><strong>Trust your instincts:</strong> If something feels off or too good to be true, it probably is.</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>🎯 What to Do If You Fell for a Phishing Scam</h2>
+            <p>If you clicked a phishing link or entered your credentials, act immediately:</p>
+            
+            <ul class="feature-list">
+                <li><strong>Change your password immediately</strong> on the legitimate website</li>
+                <li><strong>Enable two-factor authentication</strong> if you haven't already</li>
+                <li><strong>Check your account activity</strong> for unauthorized access</li>
+                <li><strong>Notify the real company</strong> about the phishing attempt</li>
+                <li><strong>Scan your computer</strong> for malware with updated antivirus software</li>
+                <li><strong>Monitor your credit</strong> if you shared financial information</li>
+                <li><strong>Report the scam</strong> to the FTC at identitytheft.gov</li>
+            </ul>
+
+            <div class="alert alert-warning">
+                <strong>Don't panic:</strong> Quick action can prevent or minimize damage. Most importantly, learn from the experience to avoid future scams.
+            </div>
+        </div>
+
+        <div class="alert alert-success">
+            <strong>Learn about other scams:</strong> Check out <a href="fake-sites.html">Fake Login Pages</a> and <a href="smishing.html">SMS Scams</a> to stay protected!
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 PassPerscriber. All rights reserved.</p>
+            <p>Empowering users to take control of their online security.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="generator.html">Generator</a>
+                <a href="resources.html">Resources</a>
+                <a href="quiz.html">Quiz</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

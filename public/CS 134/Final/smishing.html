@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about SMS scams (smishing) and how to protect yourself from text message fraud">
+    <meta name="keywords" content="smishing, SMS scams, text message scams, mobile security, phone scams">
+    <meta name="author" content="PassPerscriber">
+    <title>SMS Scams (Smishing) - PassPerscriber</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span>🔐</span>
+                <span>PassPerscriber</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="basics.html">Basics</a></li>
+                    <li><a href="security-tips.html">Security Tips</a></li>
+                    <li><a href="phishing.html">Phishing</a></li>
+                    <li><a href="fake-sites.html">Fake Sites</a></li>
+                    <li><a href="smishing.html" class="active">Smishing</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>📱 SMS Scams (Smishing)</h1>
+
+        <div class="card">
+            <h2>What is Smishing?</h2>
+            <p>Smishing is phishing conducted through SMS text messages. The term combines "SMS" and "phishing." Scammers send fraudulent text messages that appear to be from legitimate sources, trying to trick you into revealing personal information, clicking malicious links, or downloading malware.</p>
+            
+            <div class="alert alert-danger">
+                <strong>Growing Threat:</strong> Smishing attacks increased by 328% in recent years. Mobile devices are now a primary target for cybercriminals because people tend to trust text messages more than emails.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🚩 Red Flags of Smishing</h2>
+            
+            <div class="card-grid">
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>📦 Fake Delivery Notices</h3>
+                    <p>Messages claiming a package is waiting, requires action, or failed delivery.</p>
+                    <p><strong>Example:</strong> "Your package could not be delivered. Update address: [link]"</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>🏦 Bank Account Alerts</h3>
+                    <p>Fake security alerts about your bank account or suspicious activity.</p>
+                    <p><strong>Example:</strong> "Your account has been locked. Verify: [link]"</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>💰 Prize Notifications</h3>
+                    <p>Claims you've won money, prizes, or gift cards.</p>
+                    <p><strong>Example:</strong> "Congratulations! You won a $1000 Walmart gift card. Claim: [link]"</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>🔒 Account Verification</h3>
+                    <p>Urgent requests to verify account information or update payment details.</p>
+                    <p><strong>Example:</strong> "Netflix: Payment failed. Update billing: [link]"</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>👮 Impersonation</h3>
+                    <p>Pretending to be government agencies, IRS, police, or courts.</p>
+                    <p><strong>Example:</strong> "IRS: You owe taxes. Pay now to avoid arrest: [link]"</p>
+                </div>
+
+                <div class="card" style="background-color: var(--bg-secondary); border-left: 4px solid var(--danger);">
+                    <h3>❤️ Romance Scams</h3>
+                    <p>Romantic interest quickly asking for money or personal information.</p>
+                    <p><strong>Example:</strong> "I need help urgently. Can you send $500?"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📲 Common Smishing Examples</h2>
+            
+            <h3>1. Package Delivery Scam</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0; font-family: monospace;">
+                <p style="color: var(--text-secondary);">
+                    📦 USPS: Your package delivery failed due to incomplete address. Confirm details: hxxps://usps-redelivery[.]com/track
+                </p>
+                <div class="alert alert-danger" style="margin-top: 1rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <strong>Why it's fake:</strong> USPS doesn't text about failed deliveries unprompted. The URL isn't usps.com. They want you to enter personal info or payment details.
+                </div>
+            </div>
+
+            <h3>2. Banking Alert Scam</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0; font-family: monospace;">
+                <p style="color: var(--text-secondary);">
+                    🏦 Bank of America Alert: Unusual activity detected on account ending in 4582. Verify immediately: [link] or call 555-0123
+                </p>
+                <div class="alert alert-danger" style="margin-top: 1rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <strong>Why it's fake:</strong> Creates panic to rush you. Real banks tell you to call the number on your card, not a number in a text. The link leads to a fake login page.
+                </div>
+            </div>
+
+            <h3>3. Account Suspension Scam</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0; font-family: monospace;">
+                <p style="color: var(--text-secondary);">
+                    Amazon: Your account has been suspended due to unusual activity. Restore access within 24 hours: amaz0n-security[.]net
+                </p>
+                <div class="alert alert-danger" style="margin-top: 1rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <strong>Why it's fake:</strong> Amazon doesn't suspend accounts via text. Notice "amaz0n" with a zero instead of "amazon". Legitimate domain would be amazon.com.
+                </div>
+            </div>
+
+            <h3>4. IRS/Tax Scam</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0; font-family: monospace;">
+                <p style="color: var(--text-secondary);">
+                    ⚠️ IRS URGENT: You have unpaid taxes. Immediate action required to avoid legal prosecution. Pay now: [link]
+                </p>
+                <div class="alert alert-danger" style="margin-top: 1rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <strong>Why it's fake:</strong> The IRS NEVER contacts people via text message. They send official mail. They don't threaten arrest over text.
+                </div>
+            </div>
+
+            <h3>5. COVID-19 Related Scam</h3>
+            <div class="card" style="background-color: var(--bg-dark); padding: 1.5rem; margin: 1rem 0; font-family: monospace;">
+                <p style="color: var(--text-secondary);">
+                    🦠 CDC Alert: You've been exposed to COVID-19. Schedule free testing: [link] Enter SSN to confirm identity.
+                </p>
+                <div class="alert alert-danger" style="margin-top: 1rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <strong>Why it's fake:</strong> CDC doesn't text individuals about exposure. Never provide SSN via text or unsolicited links. Check official CDC website directly.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🛡️ How to Protect Yourself from Smishing</h2>
+            
+            <ol>
+                <li><strong>Don't click links in unexpected texts:</strong> If you get an unexpected text about your account, package, or payment, don't click the link. Go directly to the official app or website.</li>
+                
+                <li><strong>Verify with the company directly:</strong> Call the official customer service number (from their website, not the text) to verify if the message is real.</li>
+                
+                <li><strong>Check the sender:</strong> Be suspicious of random numbers, especially short codes or international numbers for supposedly domestic companies.</li>
+                
+                <li><strong>Never share personal info via text:</strong> Don't reply with passwords, SSN, account numbers, or payment information.</li>
+                
+                <li><strong>Look for urgency tactics:</strong> Scammers create artificial deadlines. Legitimate companies give you time to respond.</li>
+                
+                <li><strong>Enable spam filtering:</strong> Use your carrier's spam/scam protection features (AT&T Call Protect, T-Mobile Scam Shield, Verizon Call Filter).</li>
+                
+                <li><strong>Don't call numbers in suspicious texts:</strong> The phone number might connect you to scammers who impersonate customer service.</li>
+                
+                <li><strong>Report and delete:</strong> Report smishing to your carrier by forwarding to 7726 (SPAM), then delete the message.</li>
+                
+                <li><strong>Keep phone software updated:</strong> Updates include security patches against known threats.</li>
+                
+                <li><strong>Trust your instincts:</strong> If something feels wrong, it probably is. When in doubt, verify through official channels.</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>📊 Smishing vs. Phishing Comparison</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Phishing (Email)</th>
+                        <th>Smishing (SMS)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Medium</strong></td>
+                        <td>Email</td>
+                        <td>Text message (SMS)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Open Rate</strong></td>
+                        <td>20-30%</td>
+                        <td>98% (texts almost always read)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Response Time</strong></td>
+                        <td>Hours to days</td>
+                        <td>Minutes (texts feel urgent)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trust Level</strong></td>
+                        <td>Lower (people expect email spam)</td>
+                        <td>Higher (texts feel more personal)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Filtering</strong></td>
+                        <td>Strong spam filters common</td>
+                        <td>Less sophisticated filtering</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Link Visibility</strong></td>
+                        <td>Can hover to preview</td>
+                        <td>Harder to inspect on mobile</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Verification</strong></td>
+                        <td>Check sender email domain</td>
+                        <td>Check sender number (often spoofed)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>✅ What to Do If You Respond to a Smishing Scam</h2>
+            
+            <p>If you clicked a smishing link or provided information, take these steps immediately:</p>
+            
+            <ul class="feature-list">
+                <li><strong>Don't panic</strong> - Quick action can minimize damage</li>
+                <li><strong>Change passwords</strong> for any accounts you may have compromised</li>
+                <li><strong>Enable 2FA</strong> on all important accounts immediately</li>
+                <li><strong>Contact your bank</strong> if you provided financial information</li>
+                <li><strong>Monitor accounts</strong> for unauthorized transactions or activity</li>
+                <li><strong>Run antivirus scan</strong> if you downloaded anything</li>
+                <li><strong>Report to carrier</strong> by forwarding to 7726 (SPAM)</li>
+                <li><strong>Report to FTC</strong> at reportfraud.ftc.gov</li>
+                <li><strong>Consider credit freeze</strong> if you shared SSN or sensitive data</li>
+                <li><strong>Save evidence</strong> - Take screenshots before deleting</li>
+            </ul>
+
+            <div class="alert alert-warning">
+                <strong>Remember:</strong> Even if you responded, taking immediate action greatly reduces potential harm. Learn from the experience to avoid future scams.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📞 How to Report Smishing</h2>
+            
+            <ul class="feature-list">
+                <li><strong>Your carrier:</strong> Forward suspicious texts to 7726 (SPAM) - works for all major US carriers</li>
+                <li><strong>FTC:</strong> Report at <a href="https://reportfraud.ftc.gov" class="external-link" target="_blank">reportfraud.ftc.gov</a></li>
+                <li><strong>Anti-Phishing Working Group:</strong> Forward to <a href="mailto:reportphishing@apwg.org">reportphishing@apwg.org</a></li>
+                <li><strong>IRS (for tax scams):</strong> <a href="mailto:phishing@irs.gov">phishing@irs.gov</a></li>
+                <li><strong>FBI IC3:</strong> <a href="https://www.ic3.gov" class="external-link" target="_blank">ic3.gov</a> for significant financial loss</li>
+            </ul>
+        </div>
+
+        <div class="alert alert-success">
+            <strong>Stay vigilant:</strong> Combine your knowledge of <a href="phishing.html">Phishing Emails</a> and <a href="fake-sites.html">Fake Login Pages</a> to protect yourself across all channels!
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 PassPerscriber. All rights reserved.</p>
+            <p>Empowering users to take control of their online security.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="generator.html">Generator</a>
+                <a href="resources.html">Resources</a>
+                <a href="quiz.html">Quiz</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

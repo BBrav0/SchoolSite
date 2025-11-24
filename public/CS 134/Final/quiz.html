@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test your password security knowledge with our interactive quiz and learn how to stay safe online">
+    <meta name="keywords" content="password quiz, security quiz, cybersecurity test, password knowledge, online safety quiz">
+    <meta name="author" content="PassPerscriber">
+    <title>Password Security Quiz - PassPerscriber</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span>🔐</span>
+                <span>PassPerscriber</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="basics.html">Basics</a></li>
+                    <li><a href="security-tips.html">Security Tips</a></li>
+                    <li><a href="phishing.html">Phishing</a></li>
+                    <li><a href="fake-sites.html">Fake Sites</a></li>
+                    <li><a href="smishing.html">Smishing</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="quiz.html" class="active">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>🎯 Password Security Quiz</h1>
+
+        <div class="card">
+            <h2>Test Your Knowledge!</h2>
+            <p>How much do you know about password security? Take this quick quiz to find out! Answer all questions and submit to see your score and personalized feedback.</p>
+        </div>
+
+        <form id="quizForm">
+            <div class="quiz-question">
+                <h3>Question 1: Which of the following is the STRONGEST password?</h3>
+                <div class="radio-group">
+                    <label class="checkbox-label">
+                        <input type="radio" name="q1" value="a" required>
+                        <span>password123</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q1" value="b">
+                        <span>MyBirthday1990</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q1" value="c">
+                        <span>K9$mP#2xQ@7wL!3n</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q1" value="d">
+                        <span>ilovecats</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 2: Should you use the same password for multiple accounts?</h3>
+                <div class="radio-group">
+                    <label class="checkbox-label">
+                        <input type="radio" name="q2" value="true" required>
+                        <span>False - Each account should have a unique password</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q2" value="false">
+                        <span>True - It's okay to reuse passwords for convenience</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 3: Is it a good idea to use common words in your password?</h3>
+                <div class="radio-group">
+                    <label class="checkbox-label">
+                        <input type="radio" name="q3" value="true" required>
+                        <span>True - Common words are easy to remember</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q3" value="false">
+                        <span>False - Common words are vulnerable to dictionary attacks</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 4: What makes a password strong? (Select ALL that apply)</h3>
+                <div class="checkbox-group-form">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q4" value="length">
+                        <span>Sufficient length (12+ characters)</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q4" value="complexity">
+                        <span>Complexity (uppercase, lowercase, numbers, symbols)</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q4" value="personal">
+                        <span>Personal information (birthday, name, etc.)</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q4" value="unique">
+                        <span>Uniqueness (different for each account)</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q4" value="simple">
+                        <span>Simplicity (easy patterns like 123456)</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 5: How often should you change your passwords?</h3>
+                <div class="form-group">
+                    <select id="q5" name="q5" required>
+                        <option value="">-- Select an answer --</option>
+                        <option value="a">Every week</option>
+                        <option value="b">Only when you suspect a breach or compromise</option>
+                        <option value="c">Every month</option>
+                        <option value="d">Never</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 6: What is two-factor authentication (2FA)?</h3>
+                <div class="radio-group">
+                    <label class="checkbox-label">
+                        <input type="radio" name="q6" value="a" required>
+                        <span>Using two different passwords</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q6" value="b">
+                        <span>A second verification method beyond your password</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q6" value="c">
+                        <span>Having two email accounts</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q6" value="d">
+                        <span>A type of password manager</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 7: Which of these is a sign of a phishing email?</h3>
+                <div class="checkbox-group-form">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q7" value="urgent">
+                        <span>Urgent language and threats</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q7" value="sender">
+                        <span>Suspicious sender email address</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q7" value="grammar">
+                        <span>Poor grammar and spelling</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q7" value="links">
+                        <span>Unexpected links or attachments</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q7" value="none">
+                        <span>None of the above</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 8: What should you do if you receive a suspicious text message asking you to click a link?</h3>
+                <div class="form-group">
+                    <select name="q8" required>
+                        <option value="">-- Select an answer --</option>
+                        <option value="a">Click the link to see what it is</option>
+                        <option value="b">Reply asking if it's legitimate</option>
+                        <option value="c">Delete it and verify directly with the company</option>
+                        <option value="d">Forward it to all your contacts as a warning</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 9: What is the main benefit of using a password manager?</h3>
+                <div class="radio-group">
+                    <label class="checkbox-label">
+                        <input type="radio" name="q9" value="a" required>
+                        <span>It makes passwords load faster</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q9" value="b">
+                        <span>It generates and remembers unique passwords for all accounts</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q9" value="c">
+                        <span>It prevents you from going online</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q9" value="d">
+                        <span>It automatically changes your passwords daily</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                <h3>Question 10: Which URL is most likely legitimate?</h3>
+                <div class="radio-group">
+                    <label class="checkbox-label">
+                        <input type="radio" name="q10" value="a" required>
+                        <span>paypa1-secure.com</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q10" value="b">
+                        <span>https://www.paypal.com</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q10" value="c">
+                        <span>paypal-login-security.net</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="radio" name="q10" value="d">
+                        <span>secure-paypal-verify.com</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Submit Quiz</button>
+                <button type="reset" class="btn-secondary">Reset Answers</button>
+            </div>
+        </form>
+
+        <div class="quiz-results" id="quizResults">
+            <h2>Your Results</h2>
+            <p class="quiz-score" id="scoreDisplay">0 / 10</p>
+            <p id="feedbackDisplay" style="font-size: 1.1rem; color: var(--text-primary);"></p>
+            
+            <div class="card" style="margin-top: 2rem; text-align: left;">
+                <h3>Answer Key & Explanations:</h3>
+                <ol style="color: var(--text-secondary);">
+                    <li><strong>Question 1:</strong> K9$mP#2xQ@7wL!3n - Long, random, includes all character types</li>
+                    <li><strong>Question 2:</strong> False - Each account needs a unique password to prevent cascading breaches</li>
+                    <li><strong>Question 3:</strong> False - Common words are easily cracked with dictionary attacks</li>
+                    <li><strong>Question 4:</strong> Length, Complexity, and Uniqueness make passwords strong</li>
+                    <li><strong>Question 5:</strong> Only when suspected compromise - Modern guidance doesn't require regular changes</li>
+                    <li><strong>Question 6:</strong> A second verification method - Adds extra security beyond passwords</li>
+                    <li><strong>Question 7:</strong> All except "None" - These are all phishing red flags</li>
+                    <li><strong>Question 8:</strong> Delete and verify directly - Never click suspicious links</li>
+                    <li><strong>Question 9:</strong> Generates and remembers unique passwords - The core benefit</li>
+                    <li><strong>Question 10:</strong> https://www.paypal.com - The only legitimate PayPal domain</li>
+                </ol>
+            </div>
+
+            <div class="button-group" style="margin-top: 2rem;">
+                <button id="retakeBtn">Retake Quiz</button>
+                <a href="generator.html" class="btn btn-secondary">Try Password Generator</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📚 Want to Learn More?</h2>
+            <p>After taking the quiz, explore these pages to deepen your knowledge:</p>
+            <div class="card-grid">
+                <div>
+                    <h3><a href="basics.html">Password Basics</a></h3>
+                    <p>Learn what makes a password strong and see comparison examples.</p>
+                </div>
+                <div>
+                    <h3><a href="security-tips.html">Security Tips</a></h3>
+                    <p>Discover 2FA, password managers, and best practices.</p>
+                </div>
+                <div>
+                    <h3><a href="phishing.html">Phishing Awareness</a></h3>
+                    <p>Learn to spot email scams and protect your credentials.</p>
+                </div>
+                <div>
+                    <h3><a href="resources.html">Security Resources</a></h3>
+                    <p>Find tools, password managers, and helpful links.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 PassPerscriber. All rights reserved.</p>
+            <p>Empowering users to take control of their online security.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="generator.html">Generator</a>
+                <a href="resources.html">Resources</a>
+                <a href="quiz.html">Quiz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>
+

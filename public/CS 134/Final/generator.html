@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate strong, secure passwords instantly with PassPerscriber's password generator tool">
+    <meta name="keywords" content="password generator, random password, secure password, create password, password tool">
+    <meta name="author" content="PassPerscriber">
+    <title>Password Generator - PassPerscriber</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span>🔐</span>
+                <span>PassPerscriber</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="generator.html" class="active">Generator</a></li>
+                    <li><a href="basics.html">Basics</a></li>
+                    <li><a href="security-tips.html">Security Tips</a></li>
+                    <li><a href="phishing.html">Phishing</a></li>
+                    <li><a href="fake-sites.html">Fake Sites</a></li>
+                    <li><a href="smishing.html">Smishing</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>🔧 Password Generator</h1>
+
+        <div class="card">
+            <p>Create a strong, secure password in seconds! Customize the length and complexity to meet your needs. Our generator uses cryptographically secure random generation to ensure your password is truly unpredictable.</p>
+        </div>
+
+        <div class="generator-container">
+            <h2>Your Secure Password</h2>
+            
+            <div class="password-display" id="passwordDisplay">
+                Your secure password will appear here
+            </div>
+
+            <div class="controls">
+                <div class="control-group">
+                    <label for="length">Password Length:</label>
+                    <div class="slider-container">
+                        <input type="range" id="length" min="8" max="32" value="16" step="1">
+                        <span class="length-value" id="lengthValue">16</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Character Types:</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="uppercase" checked>
+                            <span>Include Uppercase Letters (A-Z)</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="numbers" checked>
+                            <span>Include Numbers (0-9)</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="symbols" checked>
+                            <span>Include Symbols (!@#$%^&*)</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button id="generateBtn">Generate Password</button>
+                <button id="copyBtn" class="btn-secondary" disabled>Copy to Clipboard</button>
+            </div>
+
+            <div class="alert alert-warning" style="margin-top: 1.5rem;">
+                <strong>Security Tip:</strong> Never use the same password for multiple accounts. Consider using a password manager to securely store all your unique passwords.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>How to Use This Generator</h2>
+            <ol>
+                <li><strong>Adjust the length:</strong> Drag the slider to set your desired password length. Longer passwords are more secure.</li>
+                <li><strong>Select character types:</strong> Check the boxes to include uppercase letters, numbers, and symbols. More variety means stronger passwords.</li>
+                <li><strong>Generate:</strong> Click the "Generate Password" button to create a new random password.</li>
+                <li><strong>Copy:</strong> Click "Copy to Clipboard" to easily paste your password where needed.</li>
+                <li><strong>Save securely:</strong> Store your password in a password manager or write it down and keep it in a secure location.</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>Password Strength Recommendations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Use Case</th>
+                        <th>Recommended Length</th>
+                        <th>Character Types</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Email Accounts</td>
+                        <td>16+ characters</td>
+                        <td>All types (uppercase, numbers, symbols)</td>
+                    </tr>
+                    <tr>
+                        <td>Banking & Financial</td>
+                        <td>20+ characters</td>
+                        <td>All types (uppercase, numbers, symbols)</td>
+                    </tr>
+                    <tr>
+                        <td>Social Media</td>
+                        <td>14+ characters</td>
+                        <td>Uppercase and numbers minimum</td>
+                    </tr>
+                    <tr>
+                        <td>Gaming Accounts</td>
+                        <td>12+ characters</td>
+                        <td>Uppercase and numbers minimum</td>
+                    </tr>
+                    <tr>
+                        <td>Shopping Sites</td>
+                        <td>14+ characters</td>
+                        <td>All types recommended</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="alert alert-success">
+            <strong>Pro Tip:</strong> Want to learn more about what makes a strong password? Check out our <a href="basics.html">Password Basics</a> page!
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 PassPerscriber. All rights reserved.</p>
+            <p>Empowering users to take control of their online security.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="generator.html">Generator</a>
+                <a href="resources.html">Resources</a>
+                <a href="quiz.html">Quiz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/generator.js"></script>
+</body>
+</html>
+
