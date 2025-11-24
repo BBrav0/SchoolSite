@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background -->
+  <path d="M16 2 L28 8 L28 16 Q28 24 16 30 Q4 24 4 16 L4 8 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  
+  <!-- Lock body -->
+  <rect x="11" y="15" width="10" height="8" rx="1" fill="#0a0a0a"/>
+  
+  <!-- Lock shackle -->
+  <path d="M 13 15 V 12 Q 13 9 16 9 Q 19 9 19 12 V 15" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Keyhole -->
+  <circle cx="16" cy="18.5" r="1.5" fill="#4CAF50"/>
+  <rect x="15.2" y="18.5" width="1.6" height="2.5" fill="#4CAF50"/>
+</svg>
+
